@@ -1,4 +1,4 @@
-export default function AnimationCallout({ title }) {
+export function AnimationCallout({ title }) {
   return (
     <div className="paragraph paragraph--type--animation-callout paragraph--view-mode--default bc-l-section">
       <div className="js-scroll-reveal-trigger js-scroll-reveal-trigger--active" data-scrollama-index="5">

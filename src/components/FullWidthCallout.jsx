@@ -1,4 +1,4 @@
-export default function FullWidthCallout({ img, linkText, subTitle, label, title }) {
+export function  FullWidthCallout({ img, linkText, subTitle, label, title }){
   return (
     <div className="paragraph paragraph--type--full-width-callout paragraph--view-mode--default bc-l-section">
 

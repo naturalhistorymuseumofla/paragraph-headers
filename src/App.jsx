@@ -1,10 +1,5 @@
 import './App.css'
-import FullWidthCallout from './components/FullWidthCallout'
-import CondensedCallout from './components/CondensedCallout.jsx'
-import WYSIWYG from './components/WYSIWYG.jsx'
-import AnimationCallout from './components/AnimationCallout.jsx'
-import AccordionRow from './components/AccordionRow/index.jsx'
-import Accordion from './components/AccordionRow/Accordion'
+import { FullWidthCallout, Accordion, AccordionRow, AnimationCallout, CondensedCallout, WYSIWYG } from '@/components'
 
 function App() {
 
@@ -14,10 +9,10 @@ function App() {
       <CondensedCallout />
       <AnimationCallout />
       <WYSIWYG />
-      <AccordionRow>
-        <Accordion title="Title" />
-        <Accordion title="Title" />
-      </AccordionRow>
+      <Accordion>
+        <AccordionRow title="Title" />
+        <AccordionRow title="Title" />
+      </Accordion>
     </>
   )
 }

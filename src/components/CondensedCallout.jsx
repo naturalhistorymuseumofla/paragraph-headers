@@ -1,4 +1,4 @@
-export default function CondensedCallout({ title, subTitle, img }) {
+export function CondensedCallout({ title, subTitle, img }) {
   return (
     <div className="paragraph paragraph--type--condensed-callout paragraph--view-mode--default bc-l-section">
       <div className="theme-domain js-scroll-reveal-trigger js-scroll-reveal-trigger--active nhm-theme align-left" data-scrollama-index="2">

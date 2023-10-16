@@ -1,4 +1,4 @@
-export default function WYSIWYG() {
+export function WYSIWYG() {
   return (
     <div className="paragraph paragraph--type--wysiwyg paragraph--view-mode--default bc-l-section">
       <div className="bc-l-wrapper bc-l-container-fluid">
