@@ -1,4 +1,7 @@
+import { useStore } from '@/store'
+
 export function CondensedCallout({ title, subTitle, img }) {
+  const isAltered = useStore((state) => state.isAltered)
   return (
     <div className="paragraph paragraph--type--condensed-callout paragraph--view-mode--default bc-l-section">
       <div className="theme-domain js-scroll-reveal-trigger js-scroll-reveal-trigger--active nhm-theme align-left" data-scrollama-index="2">
@@ -15,7 +18,7 @@ export function CondensedCallout({ title, subTitle, img }) {
               <div className="bc-c-callout-thin__text-wrap bc-l-col-xxs-12 bc-l-col-xs-5 bc-l-col-sm-6 bc-l-col-lg-offset-1 bc-l-col-lg-5">
                 <div className="bc-c-callout-thin__text u-fades-in u-fades-in--from-below u-reveal-delay--3 ">
                   <a className="bc-u-c--white " href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                    <div className="bc-f-section-title bc-u-mg-btm--xs bc-u-mg-btm--m-sm">
+                    <div className={`bc-f-section-title bc-u-mg-btm--xs bc-u-mg-btm--m-sm ${isAltered && 'h2'}`}>
                       {title ? title : 'Condensed Callout Title'}
                     </div>
                     <div className="bc-u-c--white bc-f-body  bc-u-mg-btm--xs bc-u-mg-btm--m-sm">

@@ -1,4 +1,7 @@
+import { useStore } from "@/store"
+
 export function AnimationCallout({ title }) {
+  const isAltered = useStore((state) => state.isAltered)
   return (
     <div className="paragraph paragraph--type--animation-callout paragraph--view-mode--default bc-l-section">
       <div className="js-scroll-reveal-trigger js-scroll-reveal-trigger--active" data-scrollama-index="5">
@@ -20,9 +23,11 @@ export function AnimationCallout({ title }) {
               <div className="bc-c-callout-thin__text-wrap bc-l-col-xxs-12 bc-l-col-xs-5 bc-l-col-sm-6 bc-l-col-lg-offset-1 bc-l-col-lg-5">
                 <div className="bc-c-callout-thin__text u-fades-in u-fades-in--from-below u-reveal-delay--3 ">
                   <a className=" " href="https://www.google.com" style={{"color": "#FFFFFF"}}>
-                    <div className="bc-f-section-title bc-u-mg-btm--xs bc-u-mg-btm--m-sm">
+           
+                    <div className={`bc-f-section-title bc-u-mg-btm--xs bc-u-mg-btm--m-sm ${isAltered && 'h2'}`}>
                       {title ? title : "Animation Callout (Title)"}
                     </div>
+                    
                     <div className="bc-c-link-arrow bc-f-caption--bold  ">
                       <div className="bc-c-link-arrow__text " style={{"color": "#FFFFFF"}}>
                         Link text

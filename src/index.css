@@ -22586,21 +22586,21 @@ ul.bc-c-utility-nav a:hover, ul.bc-c-utility-nav a:focus, .bc-c-utility-nav ul a
   margin-bottom: 16px;
 }
 @media only screen and (min-width: 896px) {
-  .bc-c-wysiwyg h2, .cke_editable.cke_editable_themed h2 {
-    font-size: 38px;
-    line-height: 42px;
+  .bc-c-wysiwyg h2, .cke_editable.cke_editable_themed h2, .h2 {
+    font-size: 38px !important;
+    line-height: 42px !important;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .bc-c-wysiwyg h2, .cke_editable.cke_editable_themed h2 {
-    line-height: 52px;
-    font-size: 45px;
+  .bc-c-wysiwyg h2, .cke_editable.cke_editable_themed h2, .h2 {
+    line-height: 52px !important;
+    font-size: 45px !important;
   }
 }
 @media only screen and (min-width: 1408px) {
-  .bc-c-wysiwyg h2, .cke_editable.cke_editable_themed h2 {
-    line-height: 56px;
-    font-size: 48px;
+  .bc-c-wysiwyg h2, .cke_editable.cke_editable_themed h2, .h2 {
+    line-height: 56px !important;
+    font-size: 48px !important;
   }
 }
 .theme-theme-1 .bc-c-wysiwyg h2.bc-c-themed, .theme-nhm .bc-c-wysiwyg h2.bc-c-themed, .theme-theme-1 .cke_editable.cke_editable_themed h2.bc-c-themed, .theme-nhm .cke_editable.cke_editable_themed h2.bc-c-themed {

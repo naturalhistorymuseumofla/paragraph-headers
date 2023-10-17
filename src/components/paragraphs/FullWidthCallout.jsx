@@ -1,4 +1,7 @@
+import { useStore } from '@/store'
+
 export function  FullWidthCallout({ img, linkText, subTitle, label, title }){
+  const isAltered = useStore((state) => state.isAltered)
   return (
     <div className="paragraph paragraph--type--full-width-callout paragraph--view-mode--default bc-l-section">
 
@@ -32,7 +35,7 @@ export function  FullWidthCallout({ img, linkText, subTitle, label, title }){
                     </span>
                   </p>
 
-                  <h2 className="bc-f-h1 bc-u-mg-btm--xs bc-u-mg-btm--s-sm  bc-u-c--black bc-u-c-sm--white ">  
+                  <h2 className={`bc-f-h1 bc-u-mg-btm--xs bc-u-mg-btm--s-sm bc-u-c--black bc-u-c-sm--white ${isAltered && 'h2'}`}>  
                     {title ? title : "Full Width Callout Title"}
                   </h2>
 
