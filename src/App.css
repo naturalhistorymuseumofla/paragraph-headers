@@ -52,3 +52,7 @@
 main {
   padding: 4rem 0rem;
 }
+
+.bc-themed-bg--light{
+  background-color: #e7efdc;
+}
