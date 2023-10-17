@@ -70,7 +70,7 @@ export function CalloutSlider() {
                         </div>
                       </a>
                     </div>
-                    <div className="bc-c-callout-slider__cell" aria-selected="false" style={{ position: "absolute", left: "69%" }}>
+                    <div className="bc-c-callout-slider__cell" aria-selected="false" style={{ position: "absolute", left: "72%" }}>
                       <a className="bc-c-teaser-card bc-u-c--black bc-u-c-xs--white " href="/stories/few-simple-ingredients-rises-incredible-diversity-culture-and-countless-memories">
                         <div className="bc-c-teaser-card__image bc-aspect-ratio is-6by4">
                           <div className="bc-c-teaser-card__frame">

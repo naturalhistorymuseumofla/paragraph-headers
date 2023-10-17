@@ -64,7 +64,7 @@ export function CalloutGroup() {
                                 </span>
                               </p>
 
-                              <h3 class="bc-f-h2 bc-u-mg-btm--xs bc-u-mg-btm--s-sm bc-u-mg-btm--xs bc-u-mg-btm--s-sm  bc-u-c--black bc-u-c-sm--white ">
+                              <h3 class={`bc-f-h2 bc-u-mg-btm--xs bc-u-mg-btm--s-sm bc-u-mg-btm--xs bc-u-mg-btm--s-sm  bc-u-c--black bc-u-c-sm--white ${isAltered && 'h3'}`}>
                                 Featured Title
                               </h3>
                               <div class="bc-c-fw-callout__text-subtitle bc-f-base bc-f-w-book bc-u-mg-btm--m bc-u-mg-btm--l-lg  bc-u-c--black bc-u-c-sm--white">
@@ -112,7 +112,7 @@ export function CalloutGroup() {
                                     <div class="bc-c-link-tile__content">
                                       <p class="bc-f-h6 bc-themed-c--bold bc-u-mg-btm--xs">  Link Tile Label
                                       </p>
-                                      <h3 class="bc-c-link-tile__content-title bc-f-teaser-title bc-u-mg-btm--xs">
+                                      <h3 class={`bc-c-link-tile__content-title bc-f-teaser-title bc-u-mg-btm--xs`}>
                                         Link Tile Title
                                       </h3>
                                       <p class="bc-c-link-tile__content-description bc-f-w-book bc-u-c--grey-med-text bc-u-mg-btm--s bc-u-lh--md">

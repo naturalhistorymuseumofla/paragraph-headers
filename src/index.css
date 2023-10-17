@@ -22578,10 +22578,10 @@ ul.bc-c-utility-nav a:hover, ul.bc-c-utility-nav a:focus, .bc-c-utility-nav ul a
     font-size: 64px;
   }
 }
-.bc-c-wysiwyg h2, .cke_editable.cke_editable_themed h2 {
+.bc-c-wysiwyg h2, .cke_editable.cke_editable_themed h2, .h2 {
   font-family: "Kievit", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 30px;
-  font-size: 28px;
+  font-size: 28px !important;
   font-weight: 800;
   margin-bottom: 16px;
 }
@@ -22729,23 +22729,23 @@ ul.bc-c-utility-nav a:hover, ul.bc-c-utility-nav a:focus, .bc-c-utility-nav ul a
 .theme-theme-5-membership .theme-theme-5-membership .bc-c-wysiwyg h2.bc-c-themed, .theme-theme-5-membership .theme-theme-5-membership .cke_editable.cke_editable_themed h2.bc-c-themed {
   color: #0066CC;
 }
-.bc-c-wysiwyg h3, .cke_editable.cke_editable_themed h3 {
+.bc-c-wysiwyg h3, .cke_editable.cke_editable_themed h3, .h3 {
   font-family: "Kievit", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 30px;
-  font-size: 24px;
+  font-size: 24px !important;
   margin-bottom: 16px;
 }
 @media only screen and (min-width: 1200px) {
-  .bc-c-wysiwyg h3, .cke_editable.cke_editable_themed h3 {
+  .bc-c-wysiwyg h3, .cke_editable.cke_editable_themed h3, .h3 {
     line-height: 39px;
-    font-size: 33px;
+    font-size: 33px !important;
   }
 }
 @media only screen and (min-width: 1408px) {
-  .bc-c-wysiwyg h3, .cke_editable.cke_editable_themed h3 {
+  .bc-c-wysiwyg h3, .cke_editable.cke_editable_themed h3, .h3 {
     line-height: 42px;
-    font-size: 36px;
+    font-size: 36px !important;
   }
 }
 .theme-theme-1 .bc-c-wysiwyg h3, .theme-nhm .bc-c-wysiwyg h3, .theme-theme-1 .cke_editable.cke_editable_themed h3, .theme-nhm .cke_editable.cke_editable_themed h3 {
@@ -22874,27 +22874,27 @@ ul.bc-c-utility-nav a:hover, ul.bc-c-utility-nav a:focus, .bc-c-utility-nav ul a
 .theme-theme-5-membership .theme-theme-5-membership .bc-c-wysiwyg h3, .theme-theme-5-membership .theme-theme-5-membership .cke_editable.cke_editable_themed h3 {
   color: #0066CC;
 }
-.bc-c-wysiwyg h4, .cke_editable.cke_editable_themed h4 {
+.bc-c-wysiwyg h4, .cke_editable.cke_editable_themed h4, .h4 {
   font-family: "Kievit", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 18px !important;
   line-height: 1.3;
   margin-bottom: 8px;
 }
 @media only screen and (min-width: 896px) {
-  .bc-c-wysiwyg h4, .cke_editable.cke_editable_themed h4 {
-    font-size: 20px;
+  .bc-c-wysiwyg h4, .cke_editable.cke_editable_themed h4, .h4 {
+    font-size: 20px !important;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .bc-c-wysiwyg h4, .cke_editable.cke_editable_themed h4 {
-    font-size: 22px;
+  .bc-c-wysiwyg h4, .cke_editable.cke_editable_themed h4, .h4 {
+    font-size: 22px !important;
   }
 }
 @media only screen and (min-width: 1408px) {
-  .bc-c-wysiwyg h4, .cke_editable.cke_editable_themed h4 {
-    font-size: 24px;
+  .bc-c-wysiwyg h4, .cke_editable.cke_editable_themed h4, .h4 {
+    font-size: 24px !important;
   }
 }
 .bc-c-wysiwyg h5, .cke_editable.cke_editable_themed h5 {
