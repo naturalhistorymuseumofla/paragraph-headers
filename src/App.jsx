@@ -1,7 +1,7 @@
 import './App.css'
 import Navbar from '@/components/Navbar'
 import { useStore } from '@/store'
-import { FullWidthCallout, Accordion, AccordionRow, AnimationCallout, CondensedCallout, WYSIWYG, CalloutSlider } from '@/components'
+import { FullWidthCallout, Accordion, AccordionRow, AnimationCallout, CondensedCallout, WYSIWYG, CalloutSlider, CalloutGroup } from '@/components'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <main>
         <FullWidthCallout />
         <CalloutSlider />
+        <CalloutGroup />
         <CondensedCallout />
         <AnimationCallout />
         <WYSIWYG />
